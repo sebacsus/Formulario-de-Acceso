@@ -1,0 +1,164 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background: #646464;
+}
+section{
+    width: 470px;
+    height: 600px;
+    margin: 0;
+    border: 1px solid #707070;
+    border-radius: 70px;
+    position: relative;
+    left: 380px;
+    bottom: -80px;
+    background: #fff;
+}
+
+h1{
+    color: red;
+    font-size: 40px;
+    font-weight: 200;
+    padding: 4px;
+    margin: 3px;
+    text-align: center;
+    position: relative;
+    top: 10px;
+    user-select: none;
+}
+.datos{
+    color:#707070 ;
+    font-size: 18px;
+    margin: 4px;
+    text-align: center;
+}
+.datos::selection{
+    background: rgb(241, 211, 145);
+    color: rgb(143, 74, 53);
+}
+.imagen-Grafika{
+    text-align: center;
+    width:130px;
+    height: 130px;
+    border-radius: 120px;
+    padding: 10px;
+    position: relative;
+    left: 155px;
+    top: 10px;
+
+
+}
+img{
+    position: relative;
+    bottom: 7px;
+    float: center;
+    margin: auto;
+    border-radius: 20px;
+    width: 140px;
+}
+form{
+    text-align: center;
+    position: relative;
+    bottom: -30px;
+}
+form::selection{
+    background: rgb(241, 211, 145);
+    color: rgb(143, 74, 53);
+}
+.Usuario{
+    width: 300px;
+    height: 35px;
+    font-size: 17px;
+    border: 1px solid #c7c7c7;
+}
+.Usuario::selection{
+    background: rgb(241, 211, 145);
+    color: rgb(143, 74, 53);
+}
+.Usuario:hover{
+    border: 1px solid rgb(77, 76, 76);
+    
+}
+
+.correo{
+    width: 300px;
+    height: 35px;
+    font-size: 17px;
+    border: 1px solid #c7c7c7;
+}
+.correo::selection{
+    background: rgb(241, 211, 145);
+    color: rgb(143, 74, 53);
+}
+.correo:hover{
+    border: 1px solid rgb(77, 76, 76);
+}
+.contraseña{
+    width: 300px;
+    height: 35px;
+    font-size: 17px;
+    border: 1px solid #c7c7c7;
+
+}
+.contraseña::selection{
+    background: rgb(241, 211, 145);
+    color: rgb(143, 74, 53);
+}
+.contraseña:hover{
+    border: 1px solid rgb(77, 76, 76);
+}
+.entrar{
+    transition: .5s;
+    font-size: 25px;
+    border-radius: 10px;
+    width: 110px;
+    height: 47px;
+    border: none;
+    background: #C80A0A;
+    color: #ffff;
+    cursor: pointer;
+}
+.entrar:hover{
+    background: crimson;
+}
+.texto-inferior{
+    display: inline-block;
+    position: relative;
+    left: 100px;
+    bottom: -45px;
+    text-align: center;
+}
+.clientes{
+    display: inline-block;
+    width: 70px;
+    margin-left: 40px;
+    font-size: 15px;
+    color: #707070;
+    cursor: pointer;
+}
+.clientes::selection{
+    background: rgb(241, 211, 145);
+    color: rgb(143, 74, 53);
+}
+.personal{
+    display: inline-block;
+    width: 70px;
+    margin-left: 40px;
+    font-size: 15px;
+    color: #707070;
+    cursor: pointer;
+   
+}
+.personal::selection{
+    background: rgb(241, 211, 145);
+    color: rgb(143, 74, 53);
+}
+
+
+
+
+
+
+
+
