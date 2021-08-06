@@ -1,10 +1,11 @@
 /*formulario*/
 *{
-    font-family: 'KoHO';
+    font-family: 'KoHo';
    
 }
 body{
     background: #343434;
+    height: 3100px; 
 }
 /*titulo y parrafo*/
 .formulario{
@@ -41,10 +42,7 @@ h1{
     margin: 4px;
     text-align: center;
 }
-.datos::selection{
-    background: rgb(241, 211, 145);
-    color: rgb(143, 74, 53);
-}
+
 /*imagen de formulario*/
 .imagen-Grafika{
     text-align: center;
@@ -65,25 +63,19 @@ img{
     width: 140px;
 }
 /*cajas de formulario*/
-form{
+.formulario-g{
     text-align: center;
     position: relative;
     bottom: -30px;
 }
-form::selection{
-    background: rgb(241, 211, 145);
-    color: rgb(143, 74, 53);
-}
+
 .Usuario{
     width: 300px;
     height: 35px;
     font-size: 17px;
     border: 1px solid #c7c7c7;
 }
-.Usuario::selection{
-    background: rgb(241, 211, 145);
-    color: rgb(143, 74, 53);
-}
+
 .Usuario:hover{
     border: 1px solid rgb(77, 76, 76);
     
@@ -94,10 +86,7 @@ form::selection{
     font-size: 17px;
     border: 1px solid #c7c7c7;
 }
-.correo::selection{
-    background: rgb(241, 211, 145);
-    color: rgb(143, 74, 53);
-}
+
 .correo:hover{
     border: 1px solid rgb(77, 76, 76);
 }
@@ -108,10 +97,7 @@ form::selection{
     border: 1px solid #c7c7c7;
 
 }
-.contraseña::selection{
-    background: rgb(241, 211, 145);
-    color: rgb(143, 74, 53);
-}
+
 .contraseña:hover{
     border: 1px solid rgb(77, 76, 76);
 }
@@ -145,10 +131,7 @@ form::selection{
     color: #707070;
     cursor: pointer;
 }
-.clientes::selection{
-    background: rgb(241, 211, 145);
-    color: rgb(143, 74, 53);
-}
+
 .personal{
     display: inline-block;
     width: 70px;

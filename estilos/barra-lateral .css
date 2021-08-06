@@ -1,6 +1,5 @@
 *{
     font-family: 'KoHo';
-   
 }
 .barra-izquierda{
     width: 185px;
@@ -9,7 +8,7 @@
     position: relative;
     top: -20px;
     right: 8px;
-    border-radius: 10px;
+    border-radius: 20px;
 
 }
 .imag-logo{
@@ -52,20 +51,18 @@
     bottom: 40px;
     font-size: 21px;
     text-align: center;
-    background: #FF0000;
+    background: #A20C0C;
     border-radius: 15px;
     color: #ffff;
     width: 155px;
     height: 40px;
     cursor: pointer;
     text-align: center;
+    transition: 0.4s;
 }
-.diseño-grafico::selection{
-    background: rgb(241, 211, 145);
-    color: rgb(143, 74, 53);
-}
+
 .diseño-grafico:hover{
-background: #000;
+background: #343434;
 }
 
 .publicidad{
@@ -74,19 +71,17 @@ background: #000;
     bottom: 40px;
     font-size: 22px;
     text-align: center;
-    background: #A20C0C;
+    background: #750c0c;
     border-radius: 15px;
     color: #ffff;
     width: 155px;
     height: 40px;
     cursor: pointer;
+    transition: 0.4s;
 }
-.publicidad::selection{
-    background: rgb(241, 211, 145);
-    color: rgb(143, 74, 53);
-}
+
 .publicidad:hover{
-    background: #000;
+    background: #343434;;
     }
 
 .Registros{
@@ -95,15 +90,16 @@ background: #000;
     bottom: 40px;
     font-size: 21px;
     text-align: center;
-    background: #FF7700;
+    background: #A20C0C;
     border-radius: 15px;
     color: #ffff;
     width: 155px;
     height: 40px;
     cursor: pointer;
+    transition: 0.4s;
 }
 .Registros:hover{
-    background: #000;
+    background: #343434;
     }
 
 .pagina-wed{
@@ -112,15 +108,16 @@ background: #000;
     bottom: 40px;
     font-size: 21px;
     text-align: center;
-    background: #F6DE00;
+    background: #750c0c;
     border-radius: 15px;
     color: #ffff;
     width: 155px;
     height: 40px;
     cursor: pointer;
+    transition: 0.4s;
 }
 .pagina-wed:hover{
-    background: #000;
+    background: #343434;
     }
 
 .plataformas{
@@ -129,15 +126,16 @@ background: #000;
     bottom: 40px;
     font-size: 21px;
     text-align: center;
-    background: #F907D1;
+    background: #A20C0C;
     border-radius: 15px;
     color: #ffff;
     width: 155px;
     height: 40px;
     cursor: pointer;
+    transition: 0.4s;
 }
 .plataformas:hover{
-    background: #000;
+    background: #343434;
     }
 
 .controles{
@@ -146,15 +144,16 @@ background: #000;
     bottom: 40px;
     font-size: 21px;
     text-align: center;
-    background: #0DEBE3;
+    background: #750c0c;
     border-radius: 15px;
     color: #ffff;
     width: 155px;
     height: 40px;
     cursor: pointer;
+    transition: 0.4s;
 }
 .controles:hover{
-    background: #000;
+    background: #343434;
     }
 
 .Seguridad{
@@ -163,32 +162,20 @@ background: #000;
     bottom: 40px;
     font-size: 21px;
     text-align: center;
-    background: #11DB89;
+    background: #A20C0C;
     border-radius: 15px;
     color: #ffff;
     width: 155px;
     height: 40px;
     cursor: pointer;
+    transition: 0.4s;
 }
 .Seguridad:hover{
-    background: #000;
+    background: #343434;
     }
-.titulo-{
-    font-size: 40px;
-    font-weight: bold;
-    color:#fff;
-    position: relative;
-    top: -830px;
-    left: 230px;
-}
+
 .articulo de cuerpo{
     border: 3px solid #0000;
 }
-footer{
-    background: #E3E3E3;
-    width: 100%;
-    height: 70px;
-    position: relative;
-    top: 40px;
-}
+
 
